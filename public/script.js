@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/properties";
+const API_URL = "https://ex8-mjqj.onrender.com/api/properties";
 const form = document.getElementById("propertyForm");
 const listContainer = document.getElementById("propertyList");
 
@@ -45,3 +45,4 @@ async function deleteProperty(id) {
 
 // Load properties on page load
 fetchProperties();
+
